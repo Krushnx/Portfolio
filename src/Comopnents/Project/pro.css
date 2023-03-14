@@ -1,0 +1,17 @@
+#Project
+{
+    background-color: #131313;
+}
+
+#section
+{
+    /* background-color: blue; */
+    align-items: center;
+
+    border: 2px dotted palevioletred;
+    width: 1100px;
+    height: 410px;
+    margin: auto;
+    background:url('../../src/Images/Pro1.png');
+
+}
