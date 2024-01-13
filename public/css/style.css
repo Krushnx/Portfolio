@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Bitter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+a
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+html
+{
+  scroll-behavior: smooth;
+
+}
+/* *****************************---NAVBAR----********************************** */
+
+.nav {
+  display: flex;
+  background-color: rgba(0,0,0,0.3);
+  /* position: fixed; */
+  /* width: 100vw; */
+  /* margin: 100px; */
+  /* padding: -64px; */
+  z-index: 100;
+}
+
+.nav img {
+  margin: 1rem 4rem;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+
+#Navcontent ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#Navcontent ul li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 1rem 1rem;
+  font-family: "Baloo 2", cursive;
+  font-size: 1.2rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+#Navcontent ul li:hover {
+  color: #ff4d05;
+}
+
+#Navcontent {
+  display: flex;
+}
+#Navcontent div {
+  /* color: pink; */
+  font-family: "Baloo 2", cursive;
+  font-size: 1.2rem;
+  font-weight: 200;
+  height: 70px;
+  background-color: #ff4d05;
+}
+
+#Navcontent p {
+  margin-top: 25px;
+  padding: 10px;
+  cursor: pointer;
+  /* color: #000; */
+}
+
+/* *******************************---Home----******************************************* */
+
+#home {
+  display: flex;
+  /* border: 2px solid pink; */
+  height: 86vh;
+  /* background-color: #101010; */
+  z-index: -100;
+}
+
+#home img {
+  height: 400px;
+  margin: 60px;
+}
+
+#info {
+  /* display: flex; */
+  /* border: 2px solid #ff4d05; */
+  margin: 100px;
+}
+#Mix
+{
+  display: flex;
+  flex-direction: row;
+  /* animate__fadeInRight */
+  
+}
+#info h1 {
+  margin: 0px 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+#Name {
+  font-size: 60px;
+  display: inline;
+}
+
+
+#Name2
+{
+  font-size: 60px;
+  display: inline;
+  color: #f7ca29;
+}
+
+
+
+
+#info p {
+  background-color: #ff4d05;
+  width: 92px;
+  padding: 10px;
+  /* color: #000; */
+  border-radius: 7px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 7px;
+  margin: 26px 10px;
+  height: 40px;
+  cursor: pointer;
+  width: 125px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+
+}
+
+button:hover
+{
+  font-weight: bold;
+}
+
+
+#Links
+{
+  margin: 20px 0px;
+}
+.gle {
+  height: 10px;
+  width: 10px;
+  /* background-color: #ff4d05; */
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin: 0px 35px;
+  border-top: 10px solid #ff4d05;
+}
+
+#info h1 a {
+  color: #ff4d05;
+  text-decoration: none;
+  /* font-size: 50px; */
+}
+
+#hello {
+  margin-bottom: -15px;
+  /* margin-left: 70px; */
+}
+
+.Link i
+{
+  font-size:35px;
+  margin: -10px 10px;
+  color: #fff;
+}
+.Link i:hover
+{
+
+  color:#0077b5;
+}
+
+/* ***************************------About me**************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******************************------Media Query Phone-------************************************ */
+
+@media only screen and (max-width: 600px)
+{
+
+
+.nav
+{
+  position: relative;  
+}
+    body {
+        zoom: 90%;
+        /* overflow-y: hidden; Hide vertical scrollbar */
+        overflow-x: hidden; 
+      }
+
+.nav img
+{
+    margin: 1.2rem 32%;
+} 
+    
+#Name2
+{
+  display: block;
+}
+#Navcontent
+{
+    display: none;
+}
+
+#home {
+    flex-direction: column;
+    height: 110vh;
+
+}
+
+#home img
+{
+  margin: 0px 10px;
+    object-fit: cover;
+}
+#info {
+    margin: 0px 30px;
+  }
+
+#info p {
+    width: 85px;
+  }
+  
+#Mix
+{
+  flex-direction: column;
+}
+
+
+
+}   
+
+
+
+
+#tsparticles
+{
+  height: 200px;
+  z-index: -1;
+}
+
+
+
+
+/*******************************Social******************************* */
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 15px #00000027;
+  padding: 15px 10px;
+  border-radius: 5em;
+}
+
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px #00000027;
+  transition: 0.3s;
+}
+
+.social-button:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 6px 3px #00000027;
+}
+
+.social-buttons svg {
+  transition: 0.3s;
+  height: 20px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.facebook svg {
+  fill: #f2f2f2;
+}
+
+.facebook:hover svg {
+  fill: #3b5998;
+}
+
+.github {
+  background-color: #333;
+}
+
+.github svg {
+  width: 25px;
+  height: 25px;
+  fill: #f2f2f2;
+}
+
+.github:hover svg {
+  fill: #333;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.linkedin svg {
+  fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+  fill: #0077b5;
+}
+
+.instagram {
+  background-color: #c13584;
+}
+
+.instagram svg {
+  fill: #f2f2f2;
+}
+
+.instagram:hover svg {
+  fill: #c13584;
+}
+
+
+@media screen and (min-width: 1400px) {
+  body{
+    zoom: 140%;
+  }
+}
+
+

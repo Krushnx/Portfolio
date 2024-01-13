@@ -1,0 +1,13 @@
+#experinceSection
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px dotted white;
+    margin: 50px;
+}
+
+#experinceSVG
+{
+    border: 1px solid yellowgreen;
+    /* margin: 10%; */
+}

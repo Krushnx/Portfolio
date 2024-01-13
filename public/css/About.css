@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Bitter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+#Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#Title h1 {
+    font-size: 34px;
+    margin-top: 25px;
+}
+#Title h1 i{
+    margin-right: 6px;
+}
+
+#Title h1:last-child {
+  color: #ff4d05;
+  margin-left: 11px;
+}
+#abt
+{
+  background-color: #080808;
+  /* padding-top: 150px; */
+}
+#about {
+  margin: auto;
+  width: 80%;
+  /* border: 2px dotted pink; */
+  height: 99vh;
+  background-color: #080808;
+}
+
+#Aboutme {
+  display: flex;
+}
+
+#About-info {
+  /* border: 2px dashed blue; */
+  margin: 80px 10px 30px 60px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#About-info h2{
+    color: #f7ca29;
+    font-family: "Poppins", sans-serif;
+}
+#About-info h3{
+    font-family: "Nunito";
+    margin: -1px 0px;
+}
+#Ds{
+    margin: 20px 0px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+}
+
+
+
+
+#contact
+{
+    display: grid;
+    grid-template-columns: auto auto ;
+    /* margin: 10px 0px; */
+    /* border: 5px ridge purple; */
+    width: 80%;
+}
+
+
+.myc p
+{
+    margin: 15px 0px;
+    display: inline-block;
+
+}
+
+.myc p:first-of-type
+{
+    color: #f7ca29;
+    margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #about {
+    width: 98%;
+    height: 100%;
+  }
+
+  #Aboutme {
+    display: flex;
+    flex-direction: column;
+  }
+
+#About-info {
+    margin: 0px 10px;
+}
+
+#contact
+{
+  
+  grid-template-columns: auto;
+}
+
+#Ds{
+  margin: 0px   0px;
+  font-family: 'Source Code Pro', monospace;
+  text-align: left;
+}
+
+}
