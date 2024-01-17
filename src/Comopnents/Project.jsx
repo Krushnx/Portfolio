@@ -5,7 +5,13 @@ import ProBack1 from "../Images/ProBack1.png"
 import ProBack2 from "../Images/ProBack2.png"
 import ProBack3 from "../Images/ProBack3.png"
 import ProBack4 from "../Images/ProBack4.png"
-
+import PCard from './Project/PCard';
+import img1 from './Project/images/1.png'
+import img2 from './Project/images/2.png'
+import img3 from './Project/images/3.png'
+import img5 from './Project/images/5.png'
+import img6 from './Project/images/6.png'
+import img7 from './Project/images/7.png'
       
 function Project(props)
 {
@@ -16,10 +22,12 @@ function Project(props)
         <p style={{textAlign:'center' , fontFamily:'ubuntu' , marginTop:'5px' , width:'100%'}}>Building knowledge for a better future</p>
 
         <div id='projectContainer'>
-            <ProjectCard title="LocalKart" background={ProBack1} info="LocalKart is an e-commerce platform that provides customers with a convenient and easy way to purchase groceries, vegetables, dairy products, and household goods from local stores. " view="https://krushnx.github.io/Localkart/test.html" git="https://github.com/krushnx/Localkart" shortDesc= "An e-commerce platform for grocery and household shopping."/>
-            <ProjectCard title="Hotel Lamonade" background={ProBack2} info="Hotel Lamonade is a web-based hotel booking platform that streamlines the booking experience, making it easier and more efficient for customers to make and manage reservations." view="https://krushnx.github.io/Hotel-Lamonade/Index.html" git="https://github.com/Krushnx/Hotel-Lamonade" shortDesc="A hotel booking platform that simplifies the booking process for customers."/>
-            <ProjectCard title="Survey Form" background={ProBack3} info="The survey form is a web-based tool that enables users to collect feedback and opinions from their audience. It streamlines the process of creating and distributing surveys, making it easier and more efficient to gather valuable insights and data." git="https://github.com/Krushnx/Survey-Form" view="https://krushnx.github.io/Survey-Form/index.html" shortDesc="A tool for creating and distributing surveys to gather valuable insights and data"/>
-            <ProjectCard title="Feel The Beat" background={ProBack4} info="Feel the Beat is a website that offers a range of dance classes for people of all ages and levels, aimed at promoting fitness, self-expression, and joy through dance." shortDesc="Dance classes website for all ages" view="https://krushnx.github.io/Feelthebeat/Index.html" git="https://github.com/Krushnx/Feelthebeat"/>
+            <PCard img={img1} title="TrekTravel" desc="A sleek travel guide website featuring a ReactJS front-end, NodeJS/ExpressJS back-end with MongoDB Atlas. Enhanced security through JWT authentication and Cookie handling, simplifying journey planning for users." viewlink="https://trek-tide.web.app/" gitlink="https://github.com/Krushnx/trektravel"  />
+            <PCard img={img2} title="E-Ticket-Connect" desc="A bus management system enabling cashless ticket booking for passengers, providing e-tickets for a paperless experience. Conductors benefit from easy ticket verification, route management, and insightful reports." gitlink="https://github.com/Krushnx/eTikcetConnect" viewlink="https://e-ticketconnect.web.app/" />
+            <PCard img={img3} title="LocalKart" desc="An e-commerce platform simplifying local grocery and household goods shopping. Crafted a responsive HTML, CSS, and JavaScript frontend for an intuitive, user-friendly interface, ensuring seamless purchases from nearby stores." viewlink="https://krushnx.github.io/Localkart/test.html" gitlink="https://github.com/Krushnx/Localkart"  />
+            <PCard img={img5} title="Hotel-Lamonade" desc=" Your go-to hotel website for seamless booking of rooms and delicious dining experiences. Simplify your travel planning by reserving accommodations and ordering delectable meals directly through our platform." viewlink="https://krushnx.github.io/Hotel-Lamonade/Index.html" gitlink="https://github.com/Krushnx/Hotel-Lamonade"  />
+            <PCard img={img6} title="Chat-Parser" desc="Effortlessly analyze WhatsApp conversations with our chat parser. Simply upload a text file exported from WhatsApp, and experience organized and formatted insights from your chats in no time." viewlink="" gitlink=""  />
+            <PCard img={img7} title="Feel The Beat" desc="Dive into the world of dance on our class website offering a variety of dance styles. From salsa to hip-hop, elevate your moves with our diverse dance classes." viewlink="https://krushnx.github.io/Feelthebeat/Index.html" gitlink="https://github.com/Krushnx/Feelthebeat"  />
         </div>
         
         </div>

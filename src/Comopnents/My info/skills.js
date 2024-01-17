@@ -16,6 +16,13 @@ const SkillInfo = [
     {src:"https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" , name:"Git VCS"},
     {src:"https://www.pngkey.com/png/full/178-1787366_coming-soon-github-white-icon-png.png" , name:"Github"},
     {src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" , name:"VS Code"},
-    {src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png" , name:"Canva"}];
+    {src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png" , name:"Canva"},
+
+    {src: "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png" , name:"Postman"},
+    {src: "https://tutorials.yax.com/assets/images/articles/render-logo.png" , name:"Render"},
+    {src: "https://pngimg.com/d/linux_PNG1.png" , name:"Linux"}
+    // ,{src: "" , name:"Canva"}
+
+];
 
 export default SkillInfo;
