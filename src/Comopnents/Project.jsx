@@ -7,7 +7,8 @@ import img3 from './Project/images/3.png'
 import img5 from './Project/images/5.png'
 import img6 from './Project/images/6.png'
 import img7 from './Project/images/7.png'
-      
+        
+
 function Project(props)
 {
     return(
