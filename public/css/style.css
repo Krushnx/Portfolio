@@ -374,3 +374,14 @@ button:hover
 }
 
 
+.rpv-core__text-layer,.rpv-core__annotation-layer
+{
+  display: none;
+}
+
+.rpv-core__inner-page
+{
+  display: flex;
+  justify-content: center;
+  zoom: 0.8;
+}

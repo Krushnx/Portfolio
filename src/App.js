@@ -2,6 +2,7 @@ import CertificatePage from "./Comopnents/Certificate/CertificatePage";
 import Eduaction from "./Comopnents/Education";
 import Experince from "./Comopnents/Experince";
 import Foot from "./Comopnents/Footer/footer";
+import ResumeViewer from "./Comopnents/Resume/ResumeViewer";
 import Skills from "./Comopnents/Skills";
 import Navbar from "./Comopnents/navbar";
 import Main from "./Main";
@@ -20,6 +21,7 @@ function App() {
           <Route exact path='/skills' element={<Skills />}></Route>
           <Route exact path='/education' element={<Eduaction />}></Route>
           <Route exact path='/contactme' element={<Foot />}></Route>
+          <Route exact path='/resume' element={<ResumeViewer />}></Route>
    </Routes>   
 </Router>
    

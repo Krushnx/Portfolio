@@ -34,6 +34,9 @@ function Navbar() {
           <a href="/certificate">
           <li>Certificate</li>
           </a>
+          <a href="/resume">
+          <li>Resume</li>
+          </a>
           <a href="/contactme">
           <li>Contact Me</li>
           </a>
