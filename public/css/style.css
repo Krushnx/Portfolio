@@ -207,6 +207,11 @@ button:hover
 
 
 
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper
+{
+  background-color: #0000001f !important;
+  color: white !important;
+}
 
 
 
@@ -215,7 +220,11 @@ button:hover
 
 @media only screen and (max-width: 600px)
 {
-
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper
+{
+  background-color: #0000001f;
+  color: white;
+}
 
 .nav
 {
