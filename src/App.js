@@ -1,3 +1,4 @@
+import Blog from "./Comopnents/Blog/Blog";
 import CertificatePage from "./Comopnents/Certificate/CertificatePage";
 import Eduaction from "./Comopnents/Education";
 import Experince from "./Comopnents/Experince";
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/education' element={<Eduaction />}></Route>
           <Route exact path='/contactme' element={<Foot />}></Route>
           <Route exact path='/resume' element={<ResumeViewer />}></Route>
+          <Route exact path='/blog' element={<Blog />}></Route>
    </Routes>   
 </Router>
    
